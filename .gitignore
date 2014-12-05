@@ -1,2 +1,6 @@
-/nbproject/private/
+#netbeans work directory
 /nbproject
+#Ios generated file
+ehthumbs.db
+Thumbs.db
+.DS_Store
