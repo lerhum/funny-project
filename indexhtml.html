@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="media/css/gears.css" rel="stylesheet" type="text/css" />
+         <link href="media/css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="media/css/style.css" rel="stylesheet" type="text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="media/js/snap.svg-min.js"></script>
+        <script  type="text/javascript">
+            window.onload = function () {
+                var s = Snap("#svgout");
+                var gear1 = Snap.load("svg/R-logo.svg", function (f) {
+                    sh=f.select('#shadow');
+                    sh.transform('s0.1r0,10,10');
+                     s.append(f);
+                    sh.animate({transform: 's1r0,30,100'}, 1000,  mina.bounce);   
+                });
+
+            };
+        </script>
+    </head>
+    <body>
+        <svg id='svgout' width="500" height="300">
+        </svg>
+        <div class="container">
+            <div class="gearbox">
+                <div class="overlay"></div>
+                <div class="gear one">
+                    <div class="gear-inner">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="gear two">
+                    <div class="gear-inner">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="gear three">
+                    <div class="gear-inner">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="gear four large">
+                    <div class="gear-inner">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id='logo'>
+        <h1 class="animated zoomIn">Romain</h1>
+        <h2 class="animated zoomIn">Luyten</h2>
+        </div>
+    </body>
+</html>
