@@ -1,4 +1,5 @@
-h1, h2{ font-family: 'Ubuntu', sans-serif; font-weight: 700; text-transform: uppercase; }
-h1{color:#475764; font-size: 103px; line-height: 30px}
-h2{color: #f3942a;font-size: 60px;left: 20px;letter-spacing: 37px;line-height: 0;position: relative;}
-#logo{ width: 500px; text-align: center; position: relative; top: -50px}
+#accueil h1, #accueil h2{ font-family: 'Ubuntu', sans-serif; font-weight: 700; text-transform: uppercase; }
+#accueil h1{color:#475764; font-size: 103px; line-height: 30px}
+#accueil h2{color: #f3942a;font-size: 60px;left: 20px;letter-spacing: 37px;line-height: 0;position: relative;}
+#accueil #logo{ width: 500px; text-align: center; position: relative; top: -50px}
+#accueil .inner-content{ width: 800px;  position: absolute; left:50%; margin-left: -237px; top: 200px}
